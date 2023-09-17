@@ -231,9 +231,6 @@ public:
             // TODO(SaveState): Remove the next two lines when we break compatibility
             s64 x;
             ar& x; // to keep compatibility with old save states that stored global_timer
-            // TODO(SaveState): Remove the next two lines when we break compatibility
-            s64 x;
-            ar& x; // to keep compatibility with old save states that stored global_timer
             ar& event_queue;
             ar& event_fifo_id;
             ar& slice_length;
